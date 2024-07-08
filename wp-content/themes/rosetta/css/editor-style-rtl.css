@@ -1,0 +1,109 @@
+/* Editor Style RTL */
+ul.wp-block-list ul,
+ol.wp-block-list ol,
+ul.wp-block-list ol,
+ol.wp-block-list ul {
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+/* BlockQuotes */
+blockquote cite,
+q cite,
+pre cite,
+.wp-block-pullquote .wp-block-pullquote__citation {
+    padding-right: 32px;
+    padding-left: 0;
+}
+
+blockquote cite:before,
+q cite:before,
+pre cite:before,
+.wp-block-pullquote .wp-block-pullquote__citation:before {
+    margin-right: -32px;
+    margin-left: 0;
+}
+
+/* Address, Pre, Code ...etc */
+pre, address, code { padding: 24px 64px 24px 24px; }
+address:before,
+code:before {
+    right: 0;
+    left: auto;
+}
+
+/* Captions */
+.wp-block-image figcaption,
+.wp-block-gallery figcaption,
+.wp-block-embed figcaption,
+.wp-caption .wp-caption-text,
+.entry-caption,
+.gallery-caption {
+    padding-right: 24px;
+    padding-left: 0;
+}
+
+.wp-block-image figcaption:before,
+.wp-block-gallery figcaption:before,
+.wp-block-embed figcaption:before,
+.wp-caption .wp-caption-text:before,
+.entry-caption:before,
+.gallery-caption:before {
+    margin-left: 0;
+    margin-right: -24px;
+}
+
+/* Gutenberg Blocks -> Blockquotes */
+.wp-block-quote.is-large cite,
+.wp-block-quote.is-style-large cite {
+    direction: ltr;
+    padding-right: 0;
+    padding-left: 32px;
+}
+.wp-block-quote.is-large cite:before,
+.wp-block-quote.is-style-large cite:before {
+    margin-right: 0;
+    margin-left: -32px;
+}
+
+/* Gutenberg Blocks -> Widgets */
+.wp-block-latest-posts__post-author,
+.wp-block-latest-posts__post-date {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+/* Gutenberg Blocks -> Layout Elements */
+pre code { padding: 0 40px 0 0; }
+pre code:before {
+    left: auto;
+    right: 0;
+}
+
+.wp-block-separator.is-style-dots:before {
+    padding-left: 0;
+    padding-right: 24px;
+}
+
+
+/* TinyMCE */
+.wp-block-freeform.block-library-rich-text__tinymce blockquote {
+    border-right: none;
+    padding-right: 0;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce code,
+.wp-block-freeform.block-library-rich-text__tinymce pre,
+.wp-block-freeform.block-library-rich-text__tinymce address { padding: 24px 64px 24px 24px; }
+
+.wp-block-freeform.block-library-rich-text__tinymce pre { padding: 24px; }
+
+.wp-block-freeform.block-library-rich-text__tinymce dl.wp-caption dd {
+    padding-left: 0;
+    padding-right: 24px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce dl.wp-caption dd:before {
+    margin-right: -24px;
+    margin-left: 0;
+}

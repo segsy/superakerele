@@ -1,0 +1,92 @@
+/*
+    FlatLayers WooCommerce Style -> RTL
+*/
+
+/* SHOP & ARCHIVE PAGES */
+.woocommerce .woocommerce-ordering select {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 0;
+}
+
+.woocommerce span.onsale {
+    left: auto;
+    right: 16px;
+}
+
+.woocommerce ul.products li.product .onsale { margin: 16px 0 0 16px; }
+
+.woocommerce ul.products li.product .price del {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.woocommerce .woocommerce-error .button,
+.woocommerce .woocommerce-info .button,
+.woocommerce .woocommerce-message .button,
+.woocommerce-page .woocommerce-error .button,
+.woocommerce-page .woocommerce-info .button,
+.woocommerce-page .woocommerce-message .button {
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+/* SHOP PAGINATION */
+.woocommerce div.product p.price del,
+.woocommerce div.product span.price del {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.woocommerce div.product form.cart div.quantity {
+    margin-right: 0;
+    margin-left: 4%;
+}
+
+.woocommerce div.product div.images .woocommerce-product-gallery__image:nth-child(n+2) { margin: 8px 0 0 8px; }
+
+.woocommerce #review_form .comment-form-rating label {
+    margin-right: 0;
+    margin-left: 16px;
+}
+
+.woocommerce .related.products ul.products li.product,
+.woocommerce-page .related.products ul.products li.product { margin: 0 0 32px 2%; }
+
+.woocommerce .related.products ul.products li.product.last,
+.woocommerce .related.products ul.products li.product.last {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.woocommerce ul#shipping_method li input { margin: 0 0 0 0.4375em; }
+
+/* ACCOUNT */
+.rtl .woocommerce .col2-set .col-1, .rtl .woocommerce-page .col2-set .col-1 { float: right; }
+.rtl .woocommerce .col2-set .col-2, .rtl .woocommerce-page .col2-set .col-2 { float: left; }
+
+.woocommerce .woocommerce-customer-details address { padding: 24px 64px 24px 24px; }
+
+/* Legacy Widgets */
+.woocommerce .widget_shopping_cart .buttons a,
+.woocommerce.widget_shopping_cart .buttons a {
+    margin-right: 0;
+    margin-left: 4%;
+}
+
+.woocommerce .widget_shopping_cart .buttons a:last-child,
+.woocommerce.widget_shopping_cart .buttons a:last-child {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.wc-block-grid__product-onsale {
+    right: auto;
+    left: 16px;
+}
+
+
+/* Media Quires */
+@media only screen and (max-width: 768px) {
+    .woocommerce .related.products ul.products li.product,
+    .woocommerce-page .related.products ul.products li.product { margin: 0 0 32px 0; }
+}

@@ -1,0 +1,299 @@
+/* Rosetta RTL Style */
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+/* BlockQuotes */
+blockquote cite, q cite, pre cite {
+    padding-left: 0;
+    padding-right: 32px;
+}
+
+blockquote cite:before,
+q cite:before,
+pre cite:before {
+    margin-left: 0;
+    margin-right: -32px;
+}
+
+/* Address, Pre, Code ...etc */
+pre, address, code { padding: 24px 64px 24px 24px; }
+address:before,
+code:before {
+    left: auto;
+    right: 0;
+}
+
+/* General and Response Inputs Style */
+input,
+textarea,
+select,
+button { font-family: var(--fl-body-font); }
+
+/* radio and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+/* Gutenberg Blocks -> Blockquotes */
+.wp-block-quote.is-large cite,
+.wp-block-quote.is-style-large cite {
+    direction: ltr;
+    padding-right: 0;
+    padding-left: 32px;
+}
+.wp-block-quote.is-large cite:before,
+.wp-block-quote.is-style-large cite:before {
+    margin-right: 0;
+    margin-left: -32px;
+}
+
+/* Gutenberg Blocks -> Widgets */
+.fl-post-content .wp-block-archives,
+.fl-post-content .wp-block-latest-comments,
+.fl-post-content .wp-block-latest-posts,
+.fl-post-content .wp-block-categories,
+.fl-post-content .wp-block-rss { margin-right: 0; }
+
+.wp-block-search__inside-wrapper {
+    border-radius: 4px;
+    overflow: hidden;
+}
+.wp-block-search .wp-block-search__button { margin-right: 0; }
+
+
+/* Gutenberg Blocks -> Layout Elements */
+pre code { padding: 0 40px 0 0; }
+pre code:before {
+    right: 0;
+    left: auto;
+}
+
+.wp-block-separator.is-style-dots:before {
+    padding-right: 24px;
+    padding-left: 0;
+}
+
+/* Captions */
+.wp-block-image figcaption,
+.wp-block-gallery figcaption,
+.wp-block-embed figcaption,
+.wp-caption .wp-caption-text,
+.entry-caption,
+.gallery-caption {
+    padding-right: 24px;
+    padding-left: 0;
+}
+
+.wp-block-image figcaption:before,
+.wp-block-gallery figcaption:before,
+.wp-block-embed figcaption:before,
+.wp-caption .wp-caption-text:before,
+.entry-caption:before,
+.gallery-caption:before {
+    margin-left: 0;
+    margin-right: -24px;
+}
+
+/*-------------------------------------------------------------------------*/
+/*  Header + Drawer
+/*-------------------------------------------------------------------------*/
+#fl-drawer-icon .text {
+    padding-right: 8px;     
+    padding-left: 0;
+}
+
+#fl-header .header-menu { text-align: left; }
+
+/* Top Menu */
+#fl-topmenu li.menu-item-has-children a { padding: 0 8px 0 24px; }
+
+#fl-topmenu li.menu-item-has-children .arrow {
+    right: auto;
+    left: 8px;
+}
+
+#fl-topmenu li .sub-menu {
+    text-align: right;
+    left: auto;
+    right: 0;
+}
+#fl-topmenu li .sub-menu li.menu-item-has-children .arrow { transform: rotate(90deg); }
+
+#fl-topmenu li .sub-menu li ul {
+    right: 100%;
+    left: auto;
+}
+
+/* Overlay */
+.overlay-search form:before {
+    right: 0;
+    left: auto;
+}
+.overlay-search .searchform input[type="text"] { padding: 0 64px 0 160px; }
+.overlay-search .searchform button {
+    left: 0;
+    right: auto;
+}
+
+/* Cart Icon & My Account -> WooCommerce */
+#fl-header .cart-contents .cart-count {
+    left: 0;
+    right: auto;
+}
+
+#fl-drawer {
+    -webkit-transform: translateX(360px);
+    -ms-transform: translateX(360px);
+    transform: translateX(360px);
+}
+
+/*-------------------------------------------------------------------------*/
+/*  Featured Posts
+/*-------------------------------------------------------------------------*/
+.owl-carousel .owl-nav button.owl-next {
+    right: auto;
+    left: 40px;
+}
+.owl-carousel .owl-nav button.owl-prev {
+    right: 40px;
+    left: auto;
+}
+
+/*-------------------------------------------------------------------------*/
+/*  Loop Styles
+/*-------------------------------------------------------------------------*/
+
+/* Sticky */
+.fl-post.sticky .meta-wrap {
+    padding-left: 24px;
+    padding-right: 0;
+}
+.fl-post.sticky .meta-wrap:after {
+    left: 0;
+    right: auto;
+}
+
+.fl-category a {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.fl-meta .meta i {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+.fl-read-more {
+    padding-left: 0;
+    padding-right: 40px;
+}
+.fl-read-more:before {
+    left: auto;
+    right: 0;
+}
+
+.fl-read-more:hover,
+.fl-read-more:focus {
+    padding-left: 0;
+    padding-right: 52px;
+}
+
+/* Grid Box Style */
+.fl-letterbox .fl-post.sticky .meta-wrap { padding-left: 0; }
+.fl-letterbox .fl-post.sticky .meta-wrap:after {
+    margin-right: 8px;
+    margin-left: 0;
+}
+
+/*-------------------------------------------------------------------------*/
+/*  Widgets
+/*-------------------------------------------------------------------------*/
+/* UL */
+.fl-widget ul li ul,
+.widget ul li ul {
+    padding-left: 0;
+    padding-right: 32px;
+}
+
+
+/*-------------------------------------------------------------------------*/
+/*  Single Post & Page Style
+/*-------------------------------------------------------------------------*/
+/* Content List Style and Mixes Lists */
+.fl-post-content ul {
+    margin-left: 0;
+    margin-right: 48px;
+}
+.fl-post-content ol {
+    margin-left: 0;
+    margin-right: 48px;
+}
+.fl-post-content ul ul,
+.fl-post-content ol ol,
+.fl-post-content ul ol,
+.fl-post-content ol ul {
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+.fl-tags .tag {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+/* Sharing */
+.fl-sharing a span {
+    margin-right: 4px;
+    margin-left: 0;
+}
+
+.fl-page-links a span, .fl-page-links a i { transform: rotate(180deg); }
+
+/*-------------------------------------------------------------------------*/
+/*  Comments
+/*-------------------------------------------------------------------------*/
+.fl-comment-list div.comment-body ul {
+    margin-right: 24px;
+    margin-left: 0;
+}
+.fl-comment-list div.comment-body ol {
+    margin-right: 24px;
+    margin-left: 0;
+}
+.fl-comment-list div.comment-body ul ul,
+.fl-comment-list div.comment-body ol ol,
+.fl-comment-list div.comment-body ul ol,
+.fl-comment-list div.comment-body ol ul {
+    margin-right: 24px;
+    margin-left: 0;
+}
+
+/*-------------------------------------------------------------------------*/
+/*  Media Queries
+/*-------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+    
+    .overlay-search .searchform input[type="text"] { padding: 0 48px 0 120px; }
+    
+    /* Featured Posts */
+    .owl-carousel .owl-nav button.owl-next {
+        left: 16px;
+        right: auto;
+    }
+    .owl-carousel .owl-nav button.owl-prev {
+        right: 16px;
+        left: auto;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    #fl-header .header-menu {
+        left: 8px;
+        right: auto;
+    }
+}

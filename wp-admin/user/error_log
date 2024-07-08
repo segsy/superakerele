@@ -1,0 +1,110 @@
+[09-Aug-2023 15:31:33 UTC] PHP Warning:  require(/home2/superak1/public_html/wp-includes/class-wp-duotone.php): Failed to open stream: No such file or directory in /home2/superak1/public_html/wp-settings.php on line 178
+[09-Aug-2023 15:31:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/superak1/public_html/wp-includes/class-wp-duotone.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/superak1/public_html/wp-settings.php:178
+Stack trace:
+#0 /home2/superak1/public_html/wp-config.php(105): require_once()
+#1 /home2/superak1/public_html/wp-load.php(50): require_once('/home2/superak1...')
+#2 /home2/superak1/public_html/wp-admin/admin.php(34): require_once('/home2/superak1...')
+#3 /home2/superak1/public_html/wp-admin/user/admin.php(12): require_once('/home2/superak1...')
+#4 /home2/superak1/public_html/wp-admin/user/index.php(11): require_once('/home2/superak1...')
+#5 {main}
+  thrown in /home2/superak1/public_html/wp-settings.php on line 178
+[09-Aug-2023 16:16:13 UTC] PHP Warning:  require(/home2/superak1/public_html/wp-includes/class-wp-duotone.php): Failed to open stream: No such file or directory in /home2/superak1/public_html/wp-settings.php on line 178
+[09-Aug-2023 16:16:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/superak1/public_html/wp-includes/class-wp-duotone.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/superak1/public_html/wp-settings.php:178
+Stack trace:
+#0 /home2/superak1/public_html/wp-config.php(105): require_once()
+#1 /home2/superak1/public_html/wp-load.php(50): require_once('/home2/superak1...')
+#2 /home2/superak1/public_html/wp-admin/admin.php(34): require_once('/home2/superak1...')
+#3 /home2/superak1/public_html/wp-admin/user/admin.php(12): require_once('/home2/superak1...')
+#4 /home2/superak1/public_html/wp-admin/user/index.php(11): require_once('/home2/superak1...')
+#5 {main}
+  thrown in /home2/superak1/public_html/wp-settings.php on line 178
+[10-Aug-2023 06:04:35 UTC] PHP Warning:  require(/home2/superak1/public_html/wp-includes/class-wp-duotone.php): Failed to open stream: No such file or directory in /home2/superak1/public_html/wp-settings.php on line 178
+[10-Aug-2023 06:04:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/superak1/public_html/wp-includes/class-wp-duotone.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/superak1/public_html/wp-settings.php:178
+Stack trace:
+#0 /home2/superak1/public_html/wp-config.php(105): require_once()
+#1 /home2/superak1/public_html/wp-load.php(50): require_once('/home2/superak1...')
+#2 /home2/superak1/public_html/wp-admin/admin.php(34): require_once('/home2/superak1...')
+#3 /home2/superak1/public_html/wp-admin/user/admin.php(12): require_once('/home2/superak1...')
+#4 /home2/superak1/public_html/wp-admin/user/index.php(11): require_once('/home2/superak1...')
+#5 {main}
+  thrown in /home2/superak1/public_html/wp-settings.php on line 178
+[11-Aug-2023 22:42:02 UTC] PHP Warning:  require(/home2/superak1/public_html/wp-includes/class-wp-duotone.php): Failed to open stream: No such file or directory in /home2/superak1/public_html/wp-settings.php on line 178
+[11-Aug-2023 22:42:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/superak1/public_html/wp-includes/class-wp-duotone.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/superak1/public_html/wp-settings.php:178
+Stack trace:
+#0 /home2/superak1/public_html/wp-config.php(105): require_once()
+#1 /home2/superak1/public_html/wp-load.php(50): require_once('/home2/superak1...')
+#2 /home2/superak1/public_html/wp-admin/admin.php(34): require_once('/home2/superak1...')
+#3 /home2/superak1/public_html/wp-admin/user/admin.php(12): require_once('/home2/superak1...')
+#4 /home2/superak1/public_html/wp-admin/user/index.php(11): require_once('/home2/superak1...')
+#5 {main}
+  thrown in /home2/superak1/public_html/wp-settings.php on line 178
+[12-Aug-2023 02:33:39 UTC] PHP Warning:  require(/home2/superak1/public_html/wp-includes/class-wp-duotone.php): Failed to open stream: No such file or directory in /home2/superak1/public_html/wp-settings.php on line 178
+[12-Aug-2023 02:33:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/superak1/public_html/wp-includes/class-wp-duotone.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/superak1/public_html/wp-settings.php:178
+Stack trace:
+#0 /home2/superak1/public_html/wp-config.php(105): require_once()
+#1 /home2/superak1/public_html/wp-load.php(50): require_once('/home2/superak1...')
+#2 /home2/superak1/public_html/wp-admin/admin.php(34): require_once('/home2/superak1...')
+#3 /home2/superak1/public_html/wp-admin/user/admin.php(12): require_once('/home2/superak1...')
+#4 /home2/superak1/public_html/wp-admin/user/index.php(11): require_once('/home2/superak1...')
+#5 {main}
+  thrown in /home2/superak1/public_html/wp-settings.php on line 178
+[12-Aug-2023 16:19:33 UTC] PHP Warning:  require(/home2/superak1/public_html/wp-includes/class-wp-duotone.php): Failed to open stream: No such file or directory in /home2/superak1/public_html/wp-settings.php on line 178
+[12-Aug-2023 16:19:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/superak1/public_html/wp-includes/class-wp-duotone.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/superak1/public_html/wp-settings.php:178
+Stack trace:
+#0 /home2/superak1/public_html/wp-config.php(105): require_once()
+#1 /home2/superak1/public_html/wp-load.php(50): require_once('/home2/superak1...')
+#2 /home2/superak1/public_html/wp-admin/admin.php(34): require_once('/home2/superak1...')
+#3 /home2/superak1/public_html/wp-admin/user/admin.php(12): require_once('/home2/superak1...')
+#4 /home2/superak1/public_html/wp-admin/user/index.php(11): require_once('/home2/superak1...')
+#5 {main}
+  thrown in /home2/superak1/public_html/wp-settings.php on line 178
+[14-Aug-2023 05:10:52 UTC] PHP Warning:  require(/home2/superak1/public_html/wp-includes/class-wp-duotone.php): Failed to open stream: No such file or directory in /home2/superak1/public_html/wp-settings.php on line 178
+[14-Aug-2023 05:10:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/superak1/public_html/wp-includes/class-wp-duotone.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/superak1/public_html/wp-settings.php:178
+Stack trace:
+#0 /home2/superak1/public_html/wp-config.php(105): require_once()
+#1 /home2/superak1/public_html/wp-load.php(50): require_once('/home2/superak1...')
+#2 /home2/superak1/public_html/wp-admin/admin.php(34): require_once('/home2/superak1...')
+#3 /home2/superak1/public_html/wp-admin/user/admin.php(12): require_once('/home2/superak1...')
+#4 /home2/superak1/public_html/wp-admin/user/index.php(11): require_once('/home2/superak1...')
+#5 {main}
+  thrown in /home2/superak1/public_html/wp-settings.php on line 178
+[21-Aug-2023 17:11:48 UTC] PHP Warning:  require(/home/superak1/public_html/wp-includes/class-wp-duotone.php): Failed to open stream: No such file or directory in /home/superak1/public_html/wp-settings.php on line 178
+[21-Aug-2023 17:11:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/superak1/public_html/wp-includes/class-wp-duotone.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/superak1/public_html/wp-settings.php:178
+Stack trace:
+#0 /home/superak1/public_html/wp-config.php(105): require_once()
+#1 /home/superak1/public_html/wp-load.php(50): require_once('/home/superak1/...')
+#2 /home/superak1/public_html/wp-admin/admin.php(34): require_once('/home/superak1/...')
+#3 /home/superak1/public_html/wp-admin/user/admin.php(12): require_once('/home/superak1/...')
+#4 /home/superak1/public_html/wp-admin/user/index.php(11): require_once('/home/superak1/...')
+#5 {main}
+  thrown in /home/superak1/public_html/wp-settings.php on line 178
+[22-Aug-2023 04:17:23 UTC] PHP Warning:  require(/home/superak1/public_html/wp-includes/class-wp-duotone.php): Failed to open stream: No such file or directory in /home/superak1/public_html/wp-settings.php on line 178
+[22-Aug-2023 04:17:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/superak1/public_html/wp-includes/class-wp-duotone.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/superak1/public_html/wp-settings.php:178
+Stack trace:
+#0 /home/superak1/public_html/wp-config.php(105): require_once()
+#1 /home/superak1/public_html/wp-load.php(50): require_once('/home/superak1/...')
+#2 /home/superak1/public_html/wp-admin/admin.php(34): require_once('/home/superak1/...')
+#3 /home/superak1/public_html/wp-admin/user/admin.php(12): require_once('/home/superak1/...')
+#4 /home/superak1/public_html/wp-admin/user/index.php(11): require_once('/home/superak1/...')
+#5 {main}
+  thrown in /home/superak1/public_html/wp-settings.php on line 178
+[25-Aug-2023 00:09:30 UTC] PHP Warning:  require(/home/superak1/public_html/wp-includes/class-wp-duotone.php): Failed to open stream: No such file or directory in /home/superak1/public_html/wp-settings.php on line 178
+[25-Aug-2023 00:09:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/superak1/public_html/wp-includes/class-wp-duotone.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/superak1/public_html/wp-settings.php:178
+Stack trace:
+#0 /home/superak1/public_html/wp-config.php(105): require_once()
+#1 /home/superak1/public_html/wp-load.php(50): require_once('/home/superak1/...')
+#2 /home/superak1/public_html/wp-admin/admin.php(34): require_once('/home/superak1/...')
+#3 /home/superak1/public_html/wp-admin/user/admin.php(12): require_once('/home/superak1/...')
+#4 /home/superak1/public_html/wp-admin/user/index.php(11): require_once('/home/superak1/...')
+#5 {main}
+  thrown in /home/superak1/public_html/wp-settings.php on line 178
+[27-Aug-2023 00:47:23 UTC] PHP Warning:  require(/home/superak1/public_html/wp-includes/class-wp-duotone.php): Failed to open stream: No such file or directory in /home/superak1/public_html/wp-settings.php on line 178
+[27-Aug-2023 00:47:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/superak1/public_html/wp-includes/class-wp-duotone.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/superak1/public_html/wp-settings.php:178
+Stack trace:
+#0 /home/superak1/public_html/wp-config.php(105): require_once()
+#1 /home/superak1/public_html/wp-load.php(50): require_once('/home/superak1/...')
+#2 /home/superak1/public_html/wp-admin/admin.php(34): require_once('/home/superak1/...')
+#3 /home/superak1/public_html/wp-admin/user/admin.php(12): require_once('/home/superak1/...')
+#4 /home/superak1/public_html/wp-admin/user/index.php(11): require_once('/home/superak1/...')
+#5 {main}
+  thrown in /home/superak1/public_html/wp-settings.php on line 178
