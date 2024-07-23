@@ -26,7 +26,7 @@ define( 'DB_NAME', 'superak1_wp826' );
 define( 'DB_USER', 'superak1_wp826' );
 
 /** Database password */
-define( 'DB_PASSWORD', '!S4X446pO!' );
+define( 'DB_PASSWORD', '<!S4X446pO!>' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );

@@ -6,6 +6,8 @@
 -- Generation Time: Jul 05, 2024 at 08:38 AM
 -- Server version: 8.0.34-cll-lve
 -- PHP Version: 8.1.28
+SET autocommit=0;
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
